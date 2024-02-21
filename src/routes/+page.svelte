@@ -37,7 +37,7 @@
 
 	async function fetchData() {
         try {
-            const response = await fetch('http://kosign.iptime.org:65535/vks/message');
+            const response = await fetch('http://kosign.iptime.org:65535/public/read/filteredmessage');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }

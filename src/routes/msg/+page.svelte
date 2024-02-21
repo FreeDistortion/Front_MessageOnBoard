@@ -5,7 +5,7 @@
     // 메시지를 백엔드로 전송하는 함수
     async function sendMessage() {
         try {
-            const response = await fetch('http://kosign.iptime.org:65535/vks/rcvmsg', {
+            const response = await fetch('http://kosign.iptime.org:65535/public/rcvmsg', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
